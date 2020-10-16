@@ -22,6 +22,7 @@ public class Controlador {
     
     @GetMapping
     public List<Persona>listar(){
+    	System.out.print("list people ");
         return service.listar();
     }
     @PostMapping
